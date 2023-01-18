@@ -6,12 +6,12 @@ export const App: React.FC = () => {
 
   const addOne = () => {
     // increase count by 1
-    setCount(count + 1);
+    setCount((state) => state + 1);
   };
 
   const add100 = () => {
     // increase count by 100
-    setCount(count + 100);
+    setCount((state) => state + 100);
   };
 
   // DON'T change the code below
